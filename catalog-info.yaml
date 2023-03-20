@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: platform-devportal-spechouse
+  description: Importing apis
+spec:
+  targets:
+    - ./api/*.yaml
